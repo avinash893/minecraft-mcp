@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "minecraft": {
+      "command": "python",
+      "args": [
+        "server.py"
+      ],
+      "env": {
+        "PTERO_URL": "https://panel.example.com",
+        "PTERO_KEY": "ptlc_your_api_key_here",
+        "PTERO_SERVER": "your_server_id_here"
+      }
+    }
+  }
+}
